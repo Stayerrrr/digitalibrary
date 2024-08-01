@@ -1,0 +1,81 @@
+/* Reset style */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+  
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.book-info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.book-image {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Style untuk tombol Hapus Buku dan Edit Buku */
+.book-buttons {
+    text-align: center;
+}
+
+.book-buttons form {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.book-buttons form input[type='submit'] {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-buttons form input[type='submit']:hover {
+    background-color: #cc0000;
+}
+
+.book-buttons form[action='editbuku.php'] input[type='submit'] {
+    background-color: #008CBA;
+}
+
+.book-buttons form[action='editbuku.php'] input[type='submit']:hover {
+    background-color: #005f80;
+}
+
+.book-buttons form input[type='submit']:hover {
+    background-color: #cc0000;
+}
+
+.book-buttons form[action='peminjaman.php'] input[type='submit'] {
+    background-color: #008CBA;
+}
+
+.book-buttons form[action='peminjaman.php'] input[type='submit']:hover {
+    background-color: #005f80;
+}
+
+.book-buttons form[action='kembalikan.php'] input[type='submit'] {
+    background-color: #008CBA;
+}
+
+.book-buttons form[action='kembalikan.php'] input[type='submit']:hover {
+    background-color: #005f80;
+}

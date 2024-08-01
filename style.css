@@ -1,0 +1,100 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #043444;
+    margin: 0;
+    display: row;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+  }
+
+  a {
+    color: white;
+    text-decoration: none; /* Untuk menghilangkan garis bawah pada link */
+  }
+
+  h1 {
+    color: #f2f5f5;
+  }
+  p {
+    color: #f2f5f5;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 100px
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #bac7cc;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    height: 20px;
+    border: 1px;
+    padding: 10px;
+    color: white;
+  }
+
+  input[type="text"]::placeholder {
+    color:#dae2e4
+  }
+
+  input[type="password"] {
+    width: 80%;
+    height: 20px;
+    border: 1px;
+    padding: 10px;
+  }
+
+  input[type="password"]::placeholder {
+    color:#dae2e4
+  }
+
+  input[type="submit"] {
+    width: 85%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #02e079;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  input {
+    margin-bottom: 20px;
+    border-radius: 10px; 
+    background-color: #1c4857
+  }
+
+  form {
+    text-align:center
+  }
+
+  .check {
+    text-align:left;
+    margin-left: 30px
+  }
+
+  input[type="checkbox"] {
+    width: 10px;
+    height: 10px:
+  }
+
+  .anim {
+    opacity:0;
+    transform: translateY(0px);
+    animation: moveup 0.5s linear forwards;
+  }
+
+  @keyframes moveup{
+    100%{
+        opacity: 1;
+    }
+  }
+

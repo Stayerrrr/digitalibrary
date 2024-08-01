@@ -1,0 +1,62 @@
+/* editbuku.css */
+
+/* Reset style */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Warna latar belakang */
+}
+
+.container {
+  position: relative;
+  height: 100vh; /* Sesuaikan tinggi container dengan tinggi layar */
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%; /* Lebar form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* Warna latar belakang form */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Jarak bawah dari judul */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 20px); /* Lebar input dengan padding dikurangi */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
